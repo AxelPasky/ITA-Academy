@@ -1,0 +1,64 @@
+[
+  {
+    "_id": "C001",
+    "name": "Luca",
+    "surname": "Bianchi",
+    "address": {
+      "street": "Via Roma",
+      "number": 10,
+      "floor": 2,
+      "door": "B",
+      "city": "Torino",
+      "postal_code": "10100",
+      "country": "Italia"
+    },
+    "phone": "3456789012",
+    "email": "luca.bianchi@email.com",
+    "registration_date": "2024-04-20",
+    "recommended_by": null,
+    "purchases": [
+      {
+        "timestamp": "2025-05-02T15:00:00Z",
+        "employee_id": "E001",
+        "glasses": {
+          "brand": "Ray-Ban",
+          "frame": {
+            "type": "metal",
+            "color": "silver"
+          },
+          "lenses": {
+            "left": {
+              "prescription": 2.3,
+              "color": "transparent"
+            },
+            "right": {
+              "prescription": 2.0,
+              "color": "transparent"
+            }
+          },
+          "price": 127.0,
+          "supplier_id": "S001"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "C002",
+    "name": "Anna",
+    "surname": "Verdi",
+    "address": {
+      "street": "Via Garibaldi",
+      "number": 22,
+      "floor": 1,
+      "door": "A",
+      "city": "Milano",
+      "postal_code": "20100",
+      "country": "Italia"
+    },
+    "phone": "3471122334",
+    "email": "anna.verdi@email.com",
+    "registration_date": "2024-05-01",
+    "recommended_by": "C001",
+    "purchases": []
+  }
+]

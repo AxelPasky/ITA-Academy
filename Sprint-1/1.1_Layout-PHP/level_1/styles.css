@@ -1,0 +1,325 @@
+html, body {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  /* genereal layout */
+  body {
+    background-color: white;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Header */
+  header {
+    background-color: black;
+    width: 90%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    gap: 10px;
+  }
+  
+  /* Header - top */
+  .headerTop {
+    flex: 1;
+    background-color: rgba(19, 37, 167, 0.608);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .headerTopLeft { 
+    flex: 1; 
+  }
+  .headerTopCenter {
+    flex: 4; 
+  }
+  .headerTopRight { 
+    flex: 1; 
+  }
+  
+  /* Header - bottom */
+  .headerBot {
+    flex: 1;
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+  }
+  
+  .headerBotCenter { 
+    flex: 1; 
+  }
+  
+  /* Box generical */
+  .box {
+    background-color: brown;
+    height: 20px;
+    margin: auto;
+  }
+  
+  /* Main */
+  main {
+    background-color: black;
+    width: 90%;
+    flex: 3;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    gap: 10px;
+  }
+  
+  /* main section */
+  section {
+    background-color: darkslategray;
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  /* Box in Section */
+  .mainFirstLeft, .mainFirstRight {
+    height: 20px;
+    background-color: blue;
+    text-align: center;
+    flex: 40%;
+  }
+  
+  .mainSecondLeft, .mainSecondRight {
+    height: 20px;
+    background-color: darkblue;
+    text-align: center;
+    flex: 40%;
+  }
+  
+  .mainBottom {
+    height: 20px;
+    background-color: lightblue;
+    text-align: center;
+    flex: 100%;
+  }
+  
+  /* Aside */
+  aside {
+    background-color: red;
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .asideFirst {
+    height: 20px;
+    background-color: yellow;
+  }
+  
+  .asideSecond {
+    height: 20px;
+    background-color: orange;
+    margin-top: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    width: 90%;
+    background-color: black;
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    gap: 10px;
+  }
+  
+  .footerBox {
+    background-color: gold;
+    height: 20px;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .box {
+      background-color: brown;
+      height: 20px;
+      margin: auto;
+    }
+  
+  /* Header */
+  header {
+    background-color: black;
+    width: 90%;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    gap: 10px;
+  }
+  
+  /* Header - top */
+  .headerTop {
+    flex: 3;
+    background-color: rgba(19, 37, 167, 0.608);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    
+  }
+  
+  .headerTopLeft,.headerTopCenter,.headerTopRight {
+    flex: 1 20px; 
+    width: 100%;
+    margin: 0; 
+    }
+  
+  /* Header - bottom */
+  .headerBot {
+    flex: 1;
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+  }
+  
+  .headerBotCenter { flex: 1; }
+
+  section {
+    background-color: darkslategray;
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  /* Box in Section */
+  .mainFirstLeft, .mainFirstRight {
+    height: 20px;
+    background-color: blue;
+    text-align: center;
+    flex: 40%;
+  }
+  
+  .mainSecondLeft, .mainSecondRight {
+    height: 20px;
+    background-color: darkblue;
+    text-align: center;
+    flex: 40%;
+  }
+  
+  .mainBottom {
+    height: 20px;
+    background-color: lightblue;
+    text-align: center;
+    flex: 100%;
+  }
+  aside {
+    background-color: red;
+    flex: 1;
+    padding: 10px;
+  }
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .box {
+      background-color: brown;
+      height: 20px;
+      margin: auto;
+    }
+  
+  /* Header */
+  header {
+    background-color: black;
+    width: 90%;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    gap: 10px;
+  }
+  
+  /* Header - top */
+  .headerTop {
+    flex: 3;
+    background-color: rgba(19, 37, 167, 0.608);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    
+  }
+  
+  .headerTopLeft,.headerTopCenter,.headerTopRight {
+    flex: 1 20px; 
+    width: 100%;
+    margin: 0; 
+    }
+  
+  /* Header - bottom */
+  .headerBot {
+    flex: 1;
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+  }
+  
+  .headerBotCenter { flex: 1; }
+
+  /* Main */
+  main {
+    background-color: yellow;
+    width: 90%;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    gap: 10px;
+  }
+
+  section {
+    background-color: darkslategray;
+    flex: 3;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    width: auto;
+    padding: 10px;
+  }
+
+  aside {
+    background-color: red;
+    flex: 1;
+    padding: 10px;
+  }
+
+  
+  /* Footer */
+  footer {
+    width: 90%;
+    background-color: black;
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    gap: 10px;
+  }
+  
+  .footerBox {
+    background-color: gold;
+    height: 20px;
+    width: 100%;
+  }
+  
+  }
+  
+  
+  

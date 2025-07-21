@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "G001",
+    "brand": "Ray-Ban",
+    "frame": {
+      "type": "metal",
+      "color": "silver"
+    },
+    "lenses": {
+      "left": {
+        "prescription": 2.3,
+        "color": "transparent"
+      },
+      "right": {
+        "prescription": 2.0,
+        "color": "transparent"
+      }
+    },
+    "price": 127.0,
+    "supplier_id": "S001",
+    "purchases_by": [
+      {
+        "customer": {
+          "id": "C001",
+          "name": "Luca",
+          "surname": "Bianchi"
+        },
+        "timestamp": "2025-05-02T15:00:00Z",
+        "employee_id": "E001"
+      },
+      {
+        "customer": {
+          "id": "C002",
+          "name": "Anna",
+          "surname": "Verdi"
+        },
+        "timestamp": "2025-05-03T11:30:00Z",
+        "employee_id": "E002"
+      }
+    ]
+  }
+]

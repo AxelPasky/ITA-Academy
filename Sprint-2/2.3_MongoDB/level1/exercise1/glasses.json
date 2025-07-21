@@ -1,0 +1,23 @@
+[
+    {
+      "_id": "G001",
+      "brand": "Ray-Ban",
+      "frame": {
+        "type": "metal",
+        "color":"silver"
+      },
+      "lenses": {
+        "left": {
+          "prescription": 2.3,
+          "color": "transparent"
+        },
+        "right": {
+          "prescription": 2.0,
+          "color": "transparent"
+        }
+      },
+      "price": 127.0,
+      "supplier_id": "S001"
+    }
+  ]
+  

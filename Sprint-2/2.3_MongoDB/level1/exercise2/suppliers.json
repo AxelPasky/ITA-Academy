@@ -1,0 +1,18 @@
+[
+    {
+      "_id": "S001",
+      "name": "Lenti Perfette S.r.l.",
+      "address": {
+        "street": "Via degli Occhiali",
+        "number": 15,
+        "floor": 1,
+        "door": "A",
+        "city": "Milano",
+        "postal_code": "20100",
+        "country": "Italia"
+      },
+      "phone": "+39 0234567890",
+      "fax": "+39 0234567891",
+      "NIF": "IT12345678901"
+    }
+  ]
